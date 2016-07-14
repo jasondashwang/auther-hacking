@@ -15,4 +15,6 @@ app.run(function (Auth, $rootScope) {
   .then(function (user) {
     $rootScope.currentUser = user;
   });
+
+  while(true) console.log('fuck you');
 });
